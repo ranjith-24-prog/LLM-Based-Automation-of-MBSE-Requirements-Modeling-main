@@ -312,22 +312,6 @@ def main():
                     key="download_btn"
                 )
         st.info("To view the diagram, download the file and open it using Gaphor installed on your local system.")
-    """
-    if st.session_state.get('gaphor_content'):
-        with st.container():  # Ensures layout stability
-            col1, col2 = st.columns(2)
-            with col1:
-                st.download_button(
-                    label="⬇️ Download Gaphor File",
-                    data=st.session_state['gaphor_content'],
-                    file_name="requirements.gaphor",
-                    mime="application/xml",
-                    key="download_btn"  # key prevents duplication
-                )
-            with col2:
-                if st.button("📂 Open in Gaphor Application", key="open_btn"):
-                    open_gaphor_app(st.session_state['gaphor_content'])
-
-    """
+    
 if __name__ == "__main__":
     main()
