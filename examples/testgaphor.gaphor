@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gaphor xmlns="http://gaphor.sourceforge.net/model" version="3.0" gaphor-version="2.27.0">
+<StyleSheet id="58d6989a-66f8-11ec-b4c8-0456e5e540ed"/>
+<Package id="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed">
+<name>
+<val>New model</val>
+</name>
+<ownedDiagram>
+<reflist>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</reflist>
+</ownedDiagram>
+</Package>
+<Diagram id="58d6c536-66f8-11ec-b4c8-0456e5e540ed">
+<element>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</element>
+<name>
+<val>New diagram</val>
+</name>
+<ownedDiagram>
+<reflist>
+<ref refid="64cee198-d8e6-11ef-b3dc-87ee4b273d8f"/>
+</reflist>
+</ownedDiagram>
+<ownedPresentation>
+<reflist>
+<ref refid="30d71a89-d8e6-11ef-88e5-87ee4b273d8f"/>
+<ref refid="44a56a3b-d8e6-11ef-b1a0-87ee4b273d8f"/>
+<ref refid="48c6d934-d8e6-11ef-97a8-87ee4b273d8f"/>
+<ref refid="51e798df-d8e6-11ef-a235-87ee4b273d8f"/>
+</reflist>
+</ownedPresentation>
+</Diagram>
+<Comment id="30d71a88-d8e6-11ef-ba7e-87ee4b273d8f">
+<body>
+<val>Kavya</val>
+</body>
+<presentation>
+<reflist>
+<ref refid="30d71a89-d8e6-11ef-88e5-87ee4b273d8f"/>
+<ref refid="73ff4733-d8e6-11ef-854a-87ee4b273d8f"/>
+</reflist>
+</presentation>
+</Comment>
+<CommentItem id="30d71a89-d8e6-11ef-88e5-87ee4b273d8f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 436.0, 233.0)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>100.0</val>
+</width>
+<height>
+<val>50.0</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<subject>
+<ref refid="30d71a88-d8e6-11ef-ba7e-87ee4b273d8f"/>
+</subject>
+</CommentItem>
+<Comment id="44a56a3a-d8e6-11ef-9916-87ee4b273d8f">
+<body>
+<val>Ranjith</val>
+</body>
+<presentation>
+<reflist>
+<ref refid="44a56a3b-d8e6-11ef-b1a0-87ee4b273d8f"/>
+<ref refid="7400ffbd-d8e6-11ef-86bd-87ee4b273d8f"/>
+</reflist>
+</presentation>
+</Comment>
+<CommentItem id="44a56a3b-d8e6-11ef-b1a0-87ee4b273d8f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 590.0, 233.0)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>100.0</val>
+</width>
+<height>
+<val>50.0</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<subject>
+<ref refid="44a56a3a-d8e6-11ef-9916-87ee4b273d8f"/>
+</subject>
+</CommentItem>
+<Comment id="48c6d933-d8e6-11ef-8dea-87ee4b273d8f">
+<body>
+<val>Nitin</val>
+</body>
+<presentation>
+<reflist>
+<ref refid="48c6d934-d8e6-11ef-97a8-87ee4b273d8f"/>
+<ref refid="74034ac5-d8e6-11ef-9b31-87ee4b273d8f"/>
+</reflist>
+</presentation>
+</Comment>
+<CommentItem id="48c6d934-d8e6-11ef-97a8-87ee4b273d8f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 764.0, 233.0)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>100.0</val>
+</width>
+<height>
+<val>50.0</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+<subject>
+<ref refid="48c6d933-d8e6-11ef-8dea-87ee4b273d8f"/>
+</subject>
+</CommentItem>
+<Box id="51e798df-d8e6-11ef-a235-87ee4b273d8f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 378.0, 172.0)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>525.0</val>
+</width>
+<height>
+<val>171.0</val>
+</height>
+<diagram>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</diagram>
+</Box>
+<Diagram id="64cee198-d8e6-11ef-b3dc-87ee4b273d8f">
+<diagramType>
+<val>sd</val>
+</diagramType>
+<element>
+<ref refid="58d6c536-66f8-11ec-b4c8-0456e5e540ed"/>
+</element>
+<name>
+<val>New Diagram</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="73ff4733-d8e6-11ef-854a-87ee4b273d8f"/>
+<ref refid="7400ffbd-d8e6-11ef-86bd-87ee4b273d8f"/>
+<ref refid="740273be-d8e6-11ef-8bf6-87ee4b273d8f"/>
+<ref refid="74034ac5-d8e6-11ef-9b31-87ee4b273d8f"/>
+</reflist>
+</ownedPresentation>
+</Diagram>
+<CommentItem id="73ff4733-d8e6-11ef-854a-87ee4b273d8f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 446.0, 243.0)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>100.0</val>
+</width>
+<height>
+<val>50.0</val>
+</height>
+<diagram>
+<ref refid="64cee198-d8e6-11ef-b3dc-87ee4b273d8f"/>
+</diagram>
+<subject>
+<ref refid="30d71a88-d8e6-11ef-ba7e-87ee4b273d8f"/>
+</subject>
+</CommentItem>
+<CommentItem id="7400ffbd-d8e6-11ef-86bd-87ee4b273d8f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 600.0, 243.0)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>100.0</val>
+</width>
+<height>
+<val>50.0</val>
+</height>
+<diagram>
+<ref refid="64cee198-d8e6-11ef-b3dc-87ee4b273d8f"/>
+</diagram>
+<subject>
+<ref refid="44a56a3a-d8e6-11ef-9916-87ee4b273d8f"/>
+</subject>
+</CommentItem>
+<Box id="740273be-d8e6-11ef-8bf6-87ee4b273d8f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 388.0, 182.0)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>525.0</val>
+</width>
+<height>
+<val>171.0</val>
+</height>
+<diagram>
+<ref refid="64cee198-d8e6-11ef-b3dc-87ee4b273d8f"/>
+</diagram>
+</Box>
+<CommentItem id="74034ac5-d8e6-11ef-9b31-87ee4b273d8f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 774.0, 243.0)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>100.0</val>
+</width>
+<height>
+<val>50.0</val>
+</height>
+<diagram>
+<ref refid="64cee198-d8e6-11ef-b3dc-87ee4b273d8f"/>
+</diagram>
+<subject>
+<ref refid="48c6d933-d8e6-11ef-8dea-87ee4b273d8f"/>
+</subject>
+</CommentItem>
+</gaphor>

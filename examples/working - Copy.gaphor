@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gaphor xmlns="http://gaphor.sourceforge.net/model" version="3.0" gaphor-version="2.27.0">
+<StyleSheet id="58d6989a-66f8-11ec-b4c8-0456e5e540ed"/>
+<Package id="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed">
+<name>
+<val>1. Concept Level</val>
+</name>
+<nestedPackage>
+<reflist>
+<ref refid="012edaba-70f5-11ec-aabc-f47b099bf663"/>
+</reflist>
+</nestedPackage>
+<ownedDiagram>
+<reflist>
+<ref refid="4044da9b-d99a-11ef-944c-87ee4b273d8f"/>
+</reflist>
+</ownedDiagram>
+</Package>
+<Package id="012edaba-70f5-11ec-aabc-f47b099bf663">
+<name>
+<val>Requirements</val>
+</name>
+<ownedDiagram>
+<reflist>
+<ref refid="01a97fa8-70f6-11ec-aabc-f47b099bf663"/>
+</reflist>
+</ownedDiagram>
+<ownedType>
+<reflist>
+<ref refid="96b2bc7a-bad0-11ed-be7e-f47b099bf663"/>
+<ref refid="d4b72a60-1b8e-11ec-82a8-0242ac130003"/>
+<ref refid="a7c3f5e8-1b8f-11ec-82a8-0242ac130003"/>
+<ref refid="59b930ef-d99b-11ef-8620-87ee4b273d8f"/>
+<ref refid="72e18daa-d99b-11ef-9934-87ee4b273d8f"/>
+<ref refid="7a1d530d-d99b-11ef-836f-87ee4b273d8f"/>
+<ref refid="823b8827-d99b-11ef-b056-87ee4b273d8f"/>
+<ref refid="8eaedb0f-d99b-11ef-b3e6-87ee4b273d8f"/>
+<ref refid="a1750241-d99b-11ef-b0bd-87ee4b273d8f"/>
+<ref refid="b44ae9f0-d99b-11ef-915b-87ee4b273d8f"/>
+<ref refid="bd26111c-d99b-11ef-bedc-87ee4b273d8f"/>
+<ref refid="c5df0c30-d99b-11ef-a32a-87ee4b273d8f"/>
+<ref refid="ce8eaab8-d99b-11ef-a49c-87ee4b273d8f"/>
+</reflist>
+</ownedType>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+</Package>
+<Diagram id="01a97fa8-70f6-11ec-aabc-f47b099bf663">
+<diagramType>
+<val>req</val>
+</diagramType>
+<element>
+<ref refid="012edaba-70f5-11ec-aabc-f47b099bf663"/>
+</element>
+<name>
+<val>Concept Requirements</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="e21a1840-1b8e-11ec-82a8-0242ac130003"/>
+<ref refid="f2d41290-1b8f-11ec-82a8-0242ac130003"/>
+<ref refid="59b9cdb8-d99b-11ef-af42-87ee4b273d8f"/>
+<ref refid="72e229cf-d99b-11ef-a33e-87ee4b273d8f"/>
+<ref refid="7a1def66-d99b-11ef-bd1f-87ee4b273d8f"/>
+<ref refid="823c4f91-d99b-11ef-b35f-87ee4b273d8f"/>
+<ref refid="8eaf7c5a-d99b-11ef-b5b6-87ee4b273d8f"/>
+<ref refid="a175c8eb-d99b-11ef-9e18-87ee4b273d8f"/>
+<ref refid="b44b85e1-d99b-11ef-819a-87ee4b273d8f"/>
+<ref refid="bd265f5a-d99b-11ef-a578-87ee4b273d8f"/>
+<ref refid="c5dff65d-d99b-11ef-87ea-87ee4b273d8f"/>
+<ref refid="ce8f46dd-d99b-11ef-9b05-87ee4b273d8f"/>
+</reflist>
+</ownedPresentation>
+<presentation>
+<reflist>
+<ref refid="4c49e84b-f1a4-11ed-afb8-f47b099bf663"/>
+</reflist>
+</presentation>
+</Diagram>
+<Diagram id="43e16719-f1a2-11ed-befd-f47b099bf663">
+<diagramType>
+<val></val>
+</diagramType>
+<name>
+<val>Model Navigation</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="4c49e84b-f1a4-11ed-afb8-f47b099bf663"/>
+</reflist>
+</ownedPresentation>
+</Diagram>
+<Requirement id="96b2bc7a-bad0-11ed-be7e-f47b099bf663">
+<name>
+<val>1 Cup Button</val>
+</name>
+<package>
+<ref refid="012edaba-70f5-11ec-aabc-f47b099bf663"/>
+</package>
+<text>
+<val>Pressing the one cup button shall result in a single shot of espresso.</val>
+</text>
+</Requirement>
+<Requirement id="d4b72a60-1b8e-11ec-82a8-0242ac130003">
+<name>
+<val>Requirement1</val>
+</name>
+<ownedDiagram>
+<reflist>
+<ref refid="076cd453-d999-11ef-a817-87ee4b273d8f"/>
+</reflist>
+</ownedDiagram>
+<package>
+<ref refid="012edaba-70f5-11ec-aabc-f47b099bf663"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="e21a1840-1b8e-11ec-82a8-0242ac130003"/>
+</reflist>
+</presentation>
+<text>
+<val>Enter the requirement description here</val>
+</text>
+</Requirement>
+<RequirementItem id="e21a1840-1b8e-11ec-82a8-0242ac130003">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 150.0, 300.0)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>217.0</val>
+</width>
+<height>
+<val>104.0</val>
+</height>
+<diagram>
+<ref refid="01a97fa8-70f6-11ec-aabc-f47b099bf663"/>
+</diagram>
+<subject>
+<ref refid="d4b72a60-1b8e-11ec-82a8-0242ac130003"/>
+</subject>
+</RequirementItem>
+<Requirement id="a7c3f5e8-1b8f-11ec-82a8-0242ac130003">
+<externalId>
+<val></val>
+</externalId>
+<name>
+<val>Requirement2</val>
+</name>
+<package>
+<ref refid="012edaba-70f5-11ec-aabc-f47b099bf663"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="f2d41290-1b8f-11ec-82a8-0242ac130003"/>
+</reflist>
+</presentation>
+<text>
+<val>Enter the requirement description here</val>
+</text>
+</Requirement>
+<RequirementItem id="f2d41290-1b8f-11ec-82a8-0242ac130003">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 484.0, 300.0)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>217.0</val>
+</width>
+<height>
+<val>104.0</val>
+</height>
+<diagram>
+<ref refid="01a97fa8-70f6-11ec-aabc-f47b099bf663"/>
+</diagram>
+<subject>
+<ref refid="a7c3f5e8-1b8f-11ec-82a8-0242ac130003"/>
+</subject>
+</RequirementItem>
+<DiagramItem id="4c49e84b-f1a4-11ed-afb8-f47b099bf663">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 489.7094028356546, 125.17579650878906)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>30.0</val>
+</width>
+<height>
+<val>30.0</val>
+</height>
+<diagram>
+<ref refid="43e16719-f1a2-11ed-befd-f47b099bf663"/>
+</diagram>
+<subject>
+<ref refid="01a97fa8-70f6-11ec-aabc-f47b099bf663"/>
+</subject>
+</DiagramItem>
+<Diagram id="076cd453-d999-11ef-a817-87ee4b273d8f">
+<diagramType>
+<val>cls</val>
+</diagramType>
+<element>
+<ref refid="d4b72a60-1b8e-11ec-82a8-0242ac130003"/>
+</element>
+<name>
+<val>New Diagram</val>
+</name>
+</Diagram>
+<Diagram id="4044da9b-d99a-11ef-944c-87ee4b273d8f">
+<diagramType>
+<val>cmp</val>
+</diagramType>
+<element>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</element>
+<name>
+<val>New Diagram</val>
+</name>
+</Diagram>
+<Requirement id="59b930ef-d99b-11ef-8620-87ee4b273d8f">
+<name>
+<val>Requirement 3</val>
+</name>
+<package>
+<ref refid="012edaba-70f5-11ec-aabc-f47b099bf663"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="59b9cdb8-d99b-11ef-af42-87ee4b273d8f"/>
+</reflist>
+</presentation>
+<text>
+<val>Enter the requirement description here</val>
+</text>
+</Requirement>
+<RequirementItem id="59b9cdb8-d99b-11ef-af42-87ee4b273d8f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 802.0, 300.0)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>216.5313033382081</val>
+</width>
+<height>
+<val>104.0</val>
+</height>
+<diagram>
+<ref refid="01a97fa8-70f6-11ec-aabc-f47b099bf663"/>
+</diagram>
+<subject>
+<ref refid="59b930ef-d99b-11ef-8620-87ee4b273d8f"/>
+</subject>
+</RequirementItem>
+<Requirement id="72e18daa-d99b-11ef-9934-87ee4b273d8f">
+<name>
+<val>Requirement4</val>
+</name>
+<package>
+<ref refid="012edaba-70f5-11ec-aabc-f47b099bf663"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="72e229cf-d99b-11ef-a33e-87ee4b273d8f"/>
+</reflist>
+</presentation>
+<text>
+<val>Enter the requirement description here</val>
+</text>
+</Requirement>
+<RequirementItem id="72e229cf-d99b-11ef-a33e-87ee4b273d8f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 205.0, 551.0)</val>
+</matrix>
+<top-left>
+<val>(-54.99999999999997, 0.0)</val>
+</top-left>
+<width>
+<val>217.00000000000003</val>
+</width>
+<height>
+<val>106.37330620150499</val>
+</height>
+<diagram>
+<ref refid="01a97fa8-70f6-11ec-aabc-f47b099bf663"/>
+</diagram>
+<subject>
+<ref refid="72e18daa-d99b-11ef-9934-87ee4b273d8f"/>
+</subject>
+</RequirementItem>
+<Requirement id="7a1d530d-d99b-11ef-836f-87ee4b273d8f">
+<name>
+<val>Requirement5</val>
+</name>
+<package>
+<ref refid="012edaba-70f5-11ec-aabc-f47b099bf663"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="7a1def66-d99b-11ef-bd1f-87ee4b273d8f"/>
+</reflist>
+</presentation>
+<text>
+<val>Enter the requirement description here</val>
+</text>
+</Requirement>
+<RequirementItem id="7a1def66-d99b-11ef-bd1f-87ee4b273d8f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 493.0, 549.8133468992476)</val>
+</matrix>
+<top-left>
+<val>(-9.0, 0.0)</val>
+</top-left>
+<width>
+<val>217.0</val>
+</width>
+<height>
+<val>106.37330620150499</val>
+</height>
+<diagram>
+<ref refid="01a97fa8-70f6-11ec-aabc-f47b099bf663"/>
+</diagram>
+<subject>
+<ref refid="7a1d530d-d99b-11ef-836f-87ee4b273d8f"/>
+</subject>
+</RequirementItem>
+<RequirementItem id="823c4f91-d99b-11ef-b35f-87ee4b273d8f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 818.0, 549.8133468992476)</val>
+</matrix>
+<top-left>
+<val>(-0.4686966617919097, 0.0)</val>
+</top-left>
+<width>
+<val>201.0000000000001</val>
+</width>
+<height>
+<val>106.37330620150499</val>
+</height>
+<diagram>
+<ref refid="01a97fa8-70f6-11ec-aabc-f47b099bf663"/>
+</diagram>
+<subject>
+<ref refid="823b8827-d99b-11ef-b056-87ee4b273d8f"/>
+</subject>
+</RequirementItem>
+<Requirement id="823b8827-d99b-11ef-b056-87ee4b273d8f">
+<name>
+<val>Requirement6</val>
+</name>
+<package>
+<ref refid="012edaba-70f5-11ec-aabc-f47b099bf663"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="823c4f91-d99b-11ef-b35f-87ee4b273d8f"/>
+</reflist>
+</presentation>
+<text>
+<val>Enter the requirement description here</val>
+</text>
+</Requirement>
+<Requirement id="8eaedb0f-d99b-11ef-b3e6-87ee4b273d8f">
+<name>
+<val>Requirement7</val>
+</name>
+<package>
+<ref refid="012edaba-70f5-11ec-aabc-f47b099bf663"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="8eaf7c5a-d99b-11ef-b5b6-87ee4b273d8f"/>
+</reflist>
+</presentation>
+<text>
+<val>Enter the requirement description here</val>
+</text>
+</Requirement>
+<RequirementItem id="8eaf7c5a-d99b-11ef-b5b6-87ee4b273d8f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 234.0, 806.6866531007526)</val>
+</matrix>
+<top-left>
+<val>(-83.99999999999997, 0.0)</val>
+</top-left>
+<width>
+<val>217.00000000000003</val>
+</width>
+<height>
+<val>107.37330620150499</val>
+</height>
+<diagram>
+<ref refid="01a97fa8-70f6-11ec-aabc-f47b099bf663"/>
+</diagram>
+<subject>
+<ref refid="8eaedb0f-d99b-11ef-b3e6-87ee4b273d8f"/>
+</subject>
+</RequirementItem>
+<Requirement id="a1750241-d99b-11ef-b0bd-87ee4b273d8f">
+<name>
+<val>Requirement8</val>
+</name>
+<package>
+<ref refid="012edaba-70f5-11ec-aabc-f47b099bf663"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="a175c8eb-d99b-11ef-9e18-87ee4b273d8f"/>
+</reflist>
+</presentation>
+<text>
+<val>Enter the requirement description here</val>
+</text>
+</Requirement>
+<RequirementItem id="a175c8eb-d99b-11ef-9e18-87ee4b273d8f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 484.0, 806.6866531007526)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>217.0</val>
+</width>
+<height>
+<val>104.0</val>
+</height>
+<diagram>
+<ref refid="01a97fa8-70f6-11ec-aabc-f47b099bf663"/>
+</diagram>
+<subject>
+<ref refid="a1750241-d99b-11ef-b0bd-87ee4b273d8f"/>
+</subject>
+</RequirementItem>
+<Requirement id="b44ae9f0-d99b-11ef-915b-87ee4b273d8f">
+<name>
+<val>Requirement9</val>
+</name>
+<package>
+<ref refid="012edaba-70f5-11ec-aabc-f47b099bf663"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="b44b85e1-d99b-11ef-819a-87ee4b273d8f"/>
+</reflist>
+</presentation>
+<text>
+<val>Enter the requirement description here</val>
+</text>
+</Requirement>
+<RequirementItem id="b44b85e1-d99b-11ef-819a-87ee4b273d8f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 826.0313033382081, 806.6866531007526)</val>
+</matrix>
+<top-left>
+<val>(-8.5, 0.0)</val>
+</top-left>
+<width>
+<val>200.0</val>
+</width>
+<height>
+<val>104.0</val>
+</height>
+<diagram>
+<ref refid="01a97fa8-70f6-11ec-aabc-f47b099bf663"/>
+</diagram>
+<subject>
+<ref refid="b44ae9f0-d99b-11ef-915b-87ee4b273d8f"/>
+</subject>
+</RequirementItem>
+<Requirement id="bd26111c-d99b-11ef-bedc-87ee4b273d8f">
+<name>
+<val>Requirement10</val>
+</name>
+<package>
+<ref refid="012edaba-70f5-11ec-aabc-f47b099bf663"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="bd265f5a-d99b-11ef-a578-87ee4b273d8f"/>
+</reflist>
+</presentation>
+<text>
+<val>Enter the requirement description here</val>
+</text>
+</Requirement>
+<RequirementItem id="bd265f5a-d99b-11ef-a578-87ee4b273d8f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 150.00000000000006, 1073.5496498726523)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>216.99999999999994</val>
+</width>
+<height>
+<val>106.09929974530598</val>
+</height>
+<diagram>
+<ref refid="01a97fa8-70f6-11ec-aabc-f47b099bf663"/>
+</diagram>
+<subject>
+<ref refid="bd26111c-d99b-11ef-bedc-87ee4b273d8f"/>
+</subject>
+</RequirementItem>
+<Requirement id="c5df0c30-d99b-11ef-a32a-87ee4b273d8f">
+<name>
+<val>Requirement11</val>
+</name>
+<package>
+<ref refid="012edaba-70f5-11ec-aabc-f47b099bf663"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="c5dff65d-d99b-11ef-87ea-87ee4b273d8f"/>
+</reflist>
+</presentation>
+<text>
+<val>Enter the requirement description here</val>
+</text>
+</Requirement>
+<RequirementItem id="c5dff65d-d99b-11ef-87ea-87ee4b273d8f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 484.0, 1073.5496498726523)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>217.0</val>
+</width>
+<height>
+<val>104.0</val>
+</height>
+<diagram>
+<ref refid="01a97fa8-70f6-11ec-aabc-f47b099bf663"/>
+</diagram>
+<subject>
+<ref refid="c5df0c30-d99b-11ef-a32a-87ee4b273d8f"/>
+</subject>
+</RequirementItem>
+<Requirement id="ce8eaab8-d99b-11ef-a49c-87ee4b273d8f">
+<name>
+<val>Requirement12</val>
+</name>
+<package>
+<ref refid="012edaba-70f5-11ec-aabc-f47b099bf663"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="ce8f46dd-d99b-11ef-9b05-87ee4b273d8f"/>
+</reflist>
+</presentation>
+<text>
+<val>Enter the requirement description here</val>
+</text>
+</Requirement>
+<RequirementItem id="ce8f46dd-d99b-11ef-9b05-87ee4b273d8f">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 840.5378914484098, 1074.5992997453052)</val>
+</matrix>
+<top-left>
+<val>(-10.696652378393196, 0.0)</val>
+</top-left>
+<width>
+<val>215.70090241377216</val>
+</width>
+<height>
+<val>104.0</val>
+</height>
+<diagram>
+<ref refid="01a97fa8-70f6-11ec-aabc-f47b099bf663"/>
+</diagram>
+<subject>
+<ref refid="ce8eaab8-d99b-11ef-a49c-87ee4b273d8f"/>
+</subject>
+</RequirementItem>
+</gaphor>

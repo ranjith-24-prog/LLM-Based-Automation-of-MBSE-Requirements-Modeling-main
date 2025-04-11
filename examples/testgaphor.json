@@ -1,0 +1,343 @@
+{
+    "gaphor": {
+        "@xmlns": "http://gaphor.sourceforge.net/model",
+        "@version": "3.0",
+        "@gaphor-version": "2.27.0",
+        "StyleSheet": {
+            "@id": "58d6989a-66f8-11ec-b4c8-0456e5e540ed"
+        },
+        "Package": {
+            "@id": "58d6c2e8-66f8-11ec-b4c8-0456e5e540ed",
+            "name": {
+                "val": "New model"
+            },
+            "ownedDiagram": {
+                "reflist": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                }
+            }
+        },
+        "Diagram": [
+            {
+                "@id": "58d6c536-66f8-11ec-b4c8-0456e5e540ed",
+                "element": {
+                    "ref": {
+                        "@refid": "58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "name": {
+                    "val": "New diagram"
+                },
+                "ownedDiagram": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "64cee198-d8e6-11ef-b3dc-87ee4b273d8f"
+                        }
+                    }
+                },
+                "ownedPresentation": {
+                    "reflist": {
+                        "ref": [
+                            {
+                                "@refid": "30d71a89-d8e6-11ef-88e5-87ee4b273d8f"
+                            },
+                            {
+                                "@refid": "44a56a3b-d8e6-11ef-b1a0-87ee4b273d8f"
+                            },
+                            {
+                                "@refid": "48c6d934-d8e6-11ef-97a8-87ee4b273d8f"
+                            },
+                            {
+                                "@refid": "51e798df-d8e6-11ef-a235-87ee4b273d8f"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "@id": "64cee198-d8e6-11ef-b3dc-87ee4b273d8f",
+                "diagramType": {
+                    "val": "sd"
+                },
+                "element": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "name": {
+                    "val": "New Diagram"
+                },
+                "ownedPresentation": {
+                    "reflist": {
+                        "ref": [
+                            {
+                                "@refid": "73ff4733-d8e6-11ef-854a-87ee4b273d8f"
+                            },
+                            {
+                                "@refid": "7400ffbd-d8e6-11ef-86bd-87ee4b273d8f"
+                            },
+                            {
+                                "@refid": "740273be-d8e6-11ef-8bf6-87ee4b273d8f"
+                            },
+                            {
+                                "@refid": "74034ac5-d8e6-11ef-9b31-87ee4b273d8f"
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "Comment": [
+            {
+                "@id": "30d71a88-d8e6-11ef-ba7e-87ee4b273d8f",
+                "body": {
+                    "val": "Kavya"
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": [
+                            {
+                                "@refid": "30d71a89-d8e6-11ef-88e5-87ee4b273d8f"
+                            },
+                            {
+                                "@refid": "73ff4733-d8e6-11ef-854a-87ee4b273d8f"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "@id": "44a56a3a-d8e6-11ef-9916-87ee4b273d8f",
+                "body": {
+                    "val": "Ranjith"
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": [
+                            {
+                                "@refid": "44a56a3b-d8e6-11ef-b1a0-87ee4b273d8f"
+                            },
+                            {
+                                "@refid": "7400ffbd-d8e6-11ef-86bd-87ee4b273d8f"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "@id": "48c6d933-d8e6-11ef-8dea-87ee4b273d8f",
+                "body": {
+                    "val": "Nitin"
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": [
+                            {
+                                "@refid": "48c6d934-d8e6-11ef-97a8-87ee4b273d8f"
+                            },
+                            {
+                                "@refid": "74034ac5-d8e6-11ef-9b31-87ee4b273d8f"
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "CommentItem": [
+            {
+                "@id": "30d71a89-d8e6-11ef-88e5-87ee4b273d8f",
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 436.0, 233.0)"
+                },
+                "top-left": {
+                    "val": "(0.0, 0.0)"
+                },
+                "width": {
+                    "val": "100.0"
+                },
+                "height": {
+                    "val": "50.0"
+                },
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "30d71a88-d8e6-11ef-ba7e-87ee4b273d8f"
+                    }
+                }
+            },
+            {
+                "@id": "44a56a3b-d8e6-11ef-b1a0-87ee4b273d8f",
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 590.0, 233.0)"
+                },
+                "top-left": {
+                    "val": "(0.0, 0.0)"
+                },
+                "width": {
+                    "val": "100.0"
+                },
+                "height": {
+                    "val": "50.0"
+                },
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "44a56a3a-d8e6-11ef-9916-87ee4b273d8f"
+                    }
+                }
+            },
+            {
+                "@id": "48c6d934-d8e6-11ef-97a8-87ee4b273d8f",
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 764.0, 233.0)"
+                },
+                "top-left": {
+                    "val": "(0.0, 0.0)"
+                },
+                "width": {
+                    "val": "100.0"
+                },
+                "height": {
+                    "val": "50.0"
+                },
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "48c6d933-d8e6-11ef-8dea-87ee4b273d8f"
+                    }
+                }
+            },
+            {
+                "@id": "73ff4733-d8e6-11ef-854a-87ee4b273d8f",
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 446.0, 243.0)"
+                },
+                "top-left": {
+                    "val": "(0.0, 0.0)"
+                },
+                "width": {
+                    "val": "100.0"
+                },
+                "height": {
+                    "val": "50.0"
+                },
+                "diagram": {
+                    "ref": {
+                        "@refid": "64cee198-d8e6-11ef-b3dc-87ee4b273d8f"
+                    }
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "30d71a88-d8e6-11ef-ba7e-87ee4b273d8f"
+                    }
+                }
+            },
+            {
+                "@id": "7400ffbd-d8e6-11ef-86bd-87ee4b273d8f",
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 600.0, 243.0)"
+                },
+                "top-left": {
+                    "val": "(0.0, 0.0)"
+                },
+                "width": {
+                    "val": "100.0"
+                },
+                "height": {
+                    "val": "50.0"
+                },
+                "diagram": {
+                    "ref": {
+                        "@refid": "64cee198-d8e6-11ef-b3dc-87ee4b273d8f"
+                    }
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "44a56a3a-d8e6-11ef-9916-87ee4b273d8f"
+                    }
+                }
+            },
+            {
+                "@id": "74034ac5-d8e6-11ef-9b31-87ee4b273d8f",
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 774.0, 243.0)"
+                },
+                "top-left": {
+                    "val": "(0.0, 0.0)"
+                },
+                "width": {
+                    "val": "100.0"
+                },
+                "height": {
+                    "val": "50.0"
+                },
+                "diagram": {
+                    "ref": {
+                        "@refid": "64cee198-d8e6-11ef-b3dc-87ee4b273d8f"
+                    }
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "48c6d933-d8e6-11ef-8dea-87ee4b273d8f"
+                    }
+                }
+            }
+        ],
+        "Box": [
+            {
+                "@id": "51e798df-d8e6-11ef-a235-87ee4b273d8f",
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 378.0, 172.0)"
+                },
+                "top-left": {
+                    "val": "(0.0, 0.0)"
+                },
+                "width": {
+                    "val": "525.0"
+                },
+                "height": {
+                    "val": "171.0"
+                },
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                }
+            },
+            {
+                "@id": "740273be-d8e6-11ef-8bf6-87ee4b273d8f",
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 388.0, 182.0)"
+                },
+                "top-left": {
+                    "val": "(0.0, 0.0)"
+                },
+                "width": {
+                    "val": "525.0"
+                },
+                "height": {
+                    "val": "171.0"
+                },
+                "diagram": {
+                    "ref": {
+                        "@refid": "64cee198-d8e6-11ef-b3dc-87ee4b273d8f"
+                    }
+                }
+            }
+        ]
+    }
+}

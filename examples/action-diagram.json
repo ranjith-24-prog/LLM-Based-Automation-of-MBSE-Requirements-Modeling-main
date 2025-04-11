@@ -1,0 +1,1541 @@
+{
+    "gaphor": {
+        "@xmlns": "http://gaphor.sourceforge.net/model",
+        "@version": "3.0",
+        "@gaphor-version": "2.10.0",
+        "StyleSheet": {
+            "@id": "58d6989a-66f8-11ec-b4c8-0456e5e540ed"
+        },
+        "Package": {
+            "@id": "58d6c2e8-66f8-11ec-b4c8-0456e5e540ed",
+            "name": {
+                "val": "New model"
+            },
+            "ownedDiagram": {
+                "reflist": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                }
+            },
+            "ownedType": {
+                "reflist": {
+                    "ref": {
+                        "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                    }
+                }
+            }
+        },
+        "Diagram": {
+            "@id": "58d6c536-66f8-11ec-b4c8-0456e5e540ed",
+            "element": {
+                "ref": {
+                    "@refid": "58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"
+                }
+            },
+            "name": {
+                "val": "main"
+            },
+            "ownedPresentation": {
+                "reflist": {
+                    "ref": [
+                        {
+                            "@refid": "e3b60256-e347-11ec-ace1-e7f02143838d"
+                        },
+                        {
+                            "@refid": "44c886f4-e348-11ec-bf69-e7f02143838d"
+                        },
+                        {
+                            "@refid": "551519ff-e348-11ec-b145-e7f02143838d"
+                        },
+                        {
+                            "@refid": "68fec9db-e348-11ec-99ce-e7f02143838d"
+                        },
+                        {
+                            "@refid": "b5ca3341-e348-11ec-9e6f-e7f02143838d"
+                        },
+                        {
+                            "@refid": "c725afa1-e348-11ec-8ac6-e7f02143838d"
+                        },
+                        {
+                            "@refid": "f3e5dd85-e347-11ec-a570-e7f02143838d"
+                        },
+                        {
+                            "@refid": "938769aa-e348-11ec-8817-e7f02143838d"
+                        },
+                        {
+                            "@refid": "03fb473a-e348-11ec-a147-e7f02143838d"
+                        },
+                        {
+                            "@refid": "b0c4c806-e348-11ec-9229-e7f02143838d"
+                        },
+                        {
+                            "@refid": "22e79614-e348-11ec-9b91-e7f02143838d"
+                        },
+                        {
+                            "@refid": "eafaf20c-e347-11ec-9dab-e7f02143838d"
+                        },
+                        {
+                            "@refid": "e8cd5fd2-e347-11ec-9b7a-e7f02143838d"
+                        },
+                        {
+                            "@refid": "57700f98-e348-11ec-a672-e7f02143838d"
+                        },
+                        {
+                            "@refid": "59f47f71-e348-11ec-9ce1-e7f02143838d"
+                        },
+                        {
+                            "@refid": "647a97d1-e348-11ec-a24a-e7f02143838d"
+                        },
+                        {
+                            "@refid": "ad7b9931-e348-11ec-8527-e7f02143838d"
+                        },
+                        {
+                            "@refid": "b9835b0a-e348-11ec-9b50-e7f02143838d"
+                        },
+                        {
+                            "@refid": "bf59840a-e348-11ec-ad25-e7f02143838d"
+                        },
+                        {
+                            "@refid": "c2d5dfed-e348-11ec-9338-e7f02143838d"
+                        },
+                        {
+                            "@refid": "0afffc68-e349-11ec-8a6f-e7f02143838d"
+                        },
+                        {
+                            "@refid": "0fc1055e-e349-11ec-b34a-e7f02143838d"
+                        },
+                        {
+                            "@refid": "ad6838bd-e349-11ec-9a75-e7f02143838d"
+                        }
+                    ]
+                }
+            }
+        },
+        "Activity": {
+            "@id": "e3b562ff-e347-11ec-bf8c-e7f02143838d",
+            "edge": {
+                "reflist": {
+                    "ref": [
+                        {
+                            "@refid": "57dd18b3-e348-11ec-a143-e7f02143838d"
+                        },
+                        {
+                            "@refid": "5b461446-e348-11ec-b08a-e7f02143838d"
+                        },
+                        {
+                            "@refid": "6ffc58ac-e348-11ec-896d-e7f02143838d"
+                        },
+                        {
+                            "@refid": "b309dc6d-e348-11ec-989e-e7f02143838d"
+                        },
+                        {
+                            "@refid": "ba83e8d6-e348-11ec-a92a-e7f02143838d"
+                        },
+                        {
+                            "@refid": "c038cece-e348-11ec-bf76-e7f02143838d"
+                        },
+                        {
+                            "@refid": "c409af7e-e348-11ec-8c5e-e7f02143838d"
+                        },
+                        {
+                            "@refid": "87fc3685-e349-11ec-b14d-e7f02143838d"
+                        },
+                        {
+                            "@refid": "aeca5cf3-e349-11ec-8c5f-e7f02143838d"
+                        },
+                        {
+                            "@refid": "b7ed38ea-e349-11ec-82c5-e7f02143838d"
+                        }
+                    ]
+                }
+            },
+            "name": {
+                "val": "Engineering"
+            },
+            "node": {
+                "reflist": {
+                    "ref": [
+                        {
+                            "@refid": "e8cd2f01-e347-11ec-9287-e7f02143838d"
+                        },
+                        {
+                            "@refid": "44c877ba-e348-11ec-943a-e7f02143838d"
+                        },
+                        {
+                            "@refid": "5514ea51-e348-11ec-bffe-e7f02143838d"
+                        },
+                        {
+                            "@refid": "68fea230-e348-11ec-83a5-e7f02143838d"
+                        },
+                        {
+                            "@refid": "b5ca0d24-e348-11ec-8857-e7f02143838d"
+                        },
+                        {
+                            "@refid": "f3e5a9fc-e347-11ec-a0ed-e7f02143838d"
+                        },
+                        {
+                            "@refid": "93874200-e348-11ec-b172-e7f02143838d"
+                        },
+                        {
+                            "@refid": "03fb1bee-e348-11ec-baaf-e7f02143838d"
+                        },
+                        {
+                            "@refid": "22e76c0f-e348-11ec-b540-e7f02143838d"
+                        },
+                        {
+                            "@refid": "b0c4a0f4-e348-11ec-9019-e7f02143838d"
+                        }
+                    ]
+                }
+            },
+            "package": {
+                "ref": {
+                    "@refid": "58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"
+                }
+            },
+            "presentation": {
+                "reflist": {
+                    "ref": {
+                        "@refid": "e3b60256-e347-11ec-ace1-e7f02143838d"
+                    }
+                }
+            }
+        },
+        "ActivityItem": {
+            "@id": "e3b60256-e347-11ec-ace1-e7f02143838d",
+            "matrix": {
+                "val": "(1.0, 0.0, 0.0, 1.0, 218.0, 217.4255813953489)"
+            },
+            "top-left": {
+                "val": "(-54.0, -1.6000000000000227)"
+            },
+            "width": {
+                "val": "585.0"
+            },
+            "height": {
+                "val": "496.6"
+            },
+            "children": {
+                "reflist": {
+                    "ref": [
+                        {
+                            "@refid": "44c886f4-e348-11ec-bf69-e7f02143838d"
+                        },
+                        {
+                            "@refid": "551519ff-e348-11ec-b145-e7f02143838d"
+                        },
+                        {
+                            "@refid": "68fec9db-e348-11ec-99ce-e7f02143838d"
+                        },
+                        {
+                            "@refid": "b5ca3341-e348-11ec-9e6f-e7f02143838d"
+                        },
+                        {
+                            "@refid": "c725afa1-e348-11ec-8ac6-e7f02143838d"
+                        },
+                        {
+                            "@refid": "f3e5dd85-e347-11ec-a570-e7f02143838d"
+                        }
+                    ]
+                }
+            },
+            "diagram": {
+                "ref": {
+                    "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                }
+            },
+            "subject": {
+                "ref": {
+                    "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                }
+            }
+        },
+        "InitialNode": {
+            "@id": "e8cd2f01-e347-11ec-9287-e7f02143838d",
+            "activity": {
+                "ref": {
+                    "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                }
+            },
+            "outgoing": {
+                "reflist": {
+                    "ref": {
+                        "@refid": "aeca5cf3-e349-11ec-8c5f-e7f02143838d"
+                    }
+                }
+            },
+            "presentation": {
+                "reflist": {
+                    "ref": {
+                        "@refid": "e8cd5fd2-e347-11ec-9b7a-e7f02143838d"
+                    }
+                }
+            }
+        },
+        "InitialNodeItem": {
+            "@id": "e8cd5fd2-e347-11ec-9b7a-e7f02143838d",
+            "matrix": {
+                "val": "(1.0, 0.0, 0.0, 1.0, 88.0, 467.1255813953489)"
+            },
+            "top-left": {
+                "val": "(0.0, 0.0)"
+            },
+            "width": {
+                "val": "20.0"
+            },
+            "height": {
+                "val": "20.0"
+            },
+            "diagram": {
+                "ref": {
+                    "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                }
+            },
+            "subject": {
+                "ref": {
+                    "@refid": "e8cd2f01-e347-11ec-9287-e7f02143838d"
+                }
+            }
+        },
+        "InputPinItem": {
+            "@id": "eafaf20c-e347-11ec-9dab-e7f02143838d",
+            "matrix": {
+                "val": "(1.0, 0.0, 0.0, 1.0, -28.0, -9.5)"
+            },
+            "point": {
+                "val": "(28.0, 32.0)"
+            },
+            "connection": {
+                "ref": {
+                    "@refid": "22e79614-e348-11ec-9b91-e7f02143838d"
+                }
+            },
+            "diagram": {
+                "ref": {
+                    "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                }
+            },
+            "parent": {
+                "ref": {
+                    "@refid": "22e79614-e348-11ec-9b91-e7f02143838d"
+                }
+            },
+            "subject": {
+                "ref": {
+                    "@refid": "87a6a473-e348-11ec-b384-e7f02143838d"
+                }
+            }
+        },
+        "Action": [
+            {
+                "@id": "f3e5a9fc-e347-11ec-a0ed-e7f02143838d",
+                "activity": {
+                    "ref": {
+                        "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                    }
+                },
+                "incoming": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "87fc3685-e349-11ec-b14d-e7f02143838d"
+                        }
+                    }
+                },
+                "name": {
+                    "val": "Use Duct tape"
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "f3e5dd85-e347-11ec-a570-e7f02143838d"
+                        }
+                    }
+                }
+            },
+            {
+                "@id": "03fb1bee-e348-11ec-baaf-e7f02143838d",
+                "activity": {
+                    "ref": {
+                        "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                    }
+                },
+                "incoming": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "c038cece-e348-11ec-bf76-e7f02143838d"
+                        }
+                    }
+                },
+                "name": {
+                    "val": "Use WD40"
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "03fb473a-e348-11ec-a147-e7f02143838d"
+                        }
+                    }
+                }
+            },
+            {
+                "@id": "22e76c0f-e348-11ec-b540-e7f02143838d",
+                "activity": {
+                    "ref": {
+                        "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                    }
+                },
+                "inputValue": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "87a6a473-e348-11ec-b384-e7f02143838d"
+                        }
+                    }
+                },
+                "name": {
+                    "val": "Does it move?"
+                },
+                "outgoing": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "57dd18b3-e348-11ec-a143-e7f02143838d"
+                        }
+                    }
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "22e79614-e348-11ec-9b91-e7f02143838d"
+                        }
+                    }
+                }
+            },
+            {
+                "@id": "44c877ba-e348-11ec-943a-e7f02143838d",
+                "activity": {
+                    "ref": {
+                        "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                    }
+                },
+                "incoming": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "5b461446-e348-11ec-b08a-e7f02143838d"
+                        }
+                    }
+                },
+                "name": {
+                    "val": "Should it?"
+                },
+                "outgoing": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "b309dc6d-e348-11ec-989e-e7f02143838d"
+                        }
+                    }
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "44c886f4-e348-11ec-bf69-e7f02143838d"
+                        }
+                    }
+                }
+            },
+            {
+                "@id": "68fea230-e348-11ec-83a5-e7f02143838d",
+                "activity": {
+                    "ref": {
+                        "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                    }
+                },
+                "incoming": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "6ffc58ac-e348-11ec-896d-e7f02143838d"
+                        }
+                    }
+                },
+                "name": {
+                    "val": "Should it?"
+                },
+                "outgoing": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "ba83e8d6-e348-11ec-a92a-e7f02143838d"
+                        }
+                    }
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "68fec9db-e348-11ec-99ce-e7f02143838d"
+                        }
+                    }
+                }
+            },
+            {
+                "@id": "93874200-e348-11ec-b172-e7f02143838d",
+                "activity": {
+                    "ref": {
+                        "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                    }
+                },
+                "incoming": {
+                    "reflist": {
+                        "ref": [
+                            {
+                                "@refid": "c409af7e-e348-11ec-8c5e-e7f02143838d"
+                            },
+                            {
+                                "@refid": "b7ed38ea-e349-11ec-82c5-e7f02143838d"
+                            }
+                        ]
+                    }
+                },
+                "name": {
+                    "val": "No problem"
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": [
+                            {
+                                "@refid": "938769aa-e348-11ec-8817-e7f02143838d"
+                            },
+                            {
+                                "@refid": "c725afa1-e348-11ec-8ac6-e7f02143838d"
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "ActionItem": [
+            {
+                "@id": "f3e5dd85-e347-11ec-a570-e7f02143838d",
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 388.0, 88.5)"
+                },
+                "top-left": {
+                    "val": "(0.0, 0.0)"
+                },
+                "width": {
+                    "val": "123.0"
+                },
+                "height": {
+                    "val": "52.0"
+                },
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "parent": {
+                    "ref": {
+                        "@refid": "e3b60256-e347-11ec-ace1-e7f02143838d"
+                    }
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "f3e5a9fc-e347-11ec-a0ed-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "03fb473a-e348-11ec-a147-e7f02143838d",
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 608.0, 611.1)"
+                },
+                "top-left": {
+                    "val": "(-5.0, -4.5)"
+                },
+                "width": {
+                    "val": "122.0"
+                },
+                "height": {
+                    "val": "52.5"
+                },
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "03fb1bee-e348-11ec-baaf-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "22e79614-e348-11ec-9b91-e7f02143838d",
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 208.0, 454.1)"
+                },
+                "top-left": {
+                    "val": "(0.0, 0.0)"
+                },
+                "width": {
+                    "val": "102.0"
+                },
+                "height": {
+                    "val": "42.0"
+                },
+                "children": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "eafaf20c-e347-11ec-9dab-e7f02143838d"
+                        }
+                    }
+                },
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "22e76c0f-e348-11ec-b540-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "44c886f4-e348-11ec-bf69-e7f02143838d",
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 204.0, 144.67441860465112)"
+                },
+                "top-left": {
+                    "val": "(0.0, 0.0)"
+                },
+                "width": {
+                    "val": "99.0"
+                },
+                "height": {
+                    "val": "46.0"
+                },
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "parent": {
+                    "ref": {
+                        "@refid": "e3b60256-e347-11ec-ace1-e7f02143838d"
+                    }
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "44c877ba-e348-11ec-943a-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "68fec9db-e348-11ec-99ce-e7f02143838d",
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 204.0, 341.5)"
+                },
+                "top-left": {
+                    "val": "(0.0, 0.0)"
+                },
+                "width": {
+                    "val": "99.0"
+                },
+                "height": {
+                    "val": "41.5"
+                },
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "parent": {
+                    "ref": {
+                        "@refid": "e3b60256-e347-11ec-ace1-e7f02143838d"
+                    }
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "68fea230-e348-11ec-83a5-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "938769aa-e348-11ec-8817-e7f02143838d",
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 620.0, 496.1)"
+                },
+                "top-left": {
+                    "val": "(-17.0, 0.0)"
+                },
+                "width": {
+                    "val": "123.0"
+                },
+                "height": {
+                    "val": "44.5"
+                },
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "93874200-e348-11ec-b172-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "c725afa1-e348-11ec-8ac6-e7f02143838d",
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 397.0, 208.02558139534887)"
+                },
+                "top-left": {
+                    "val": "(-9.0, -1.0)"
+                },
+                "width": {
+                    "val": "123.0"
+                },
+                "height": {
+                    "val": "43.5"
+                },
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "parent": {
+                    "ref": {
+                        "@refid": "e3b60256-e347-11ec-ace1-e7f02143838d"
+                    }
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "93874200-e348-11ec-b172-e7f02143838d"
+                    }
+                }
+            }
+        ],
+        "DecisionNode": [
+            {
+                "@id": "5514ea51-e348-11ec-bffe-e7f02143838d",
+                "activity": {
+                    "ref": {
+                        "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                    }
+                },
+                "incoming": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "57dd18b3-e348-11ec-a143-e7f02143838d"
+                        }
+                    }
+                },
+                "outgoing": {
+                    "reflist": {
+                        "ref": [
+                            {
+                                "@refid": "5b461446-e348-11ec-b08a-e7f02143838d"
+                            },
+                            {
+                                "@refid": "6ffc58ac-e348-11ec-896d-e7f02143838d"
+                            }
+                        ]
+                    }
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "551519ff-e348-11ec-b145-e7f02143838d"
+                        }
+                    }
+                }
+            },
+            {
+                "@id": "b0c4a0f4-e348-11ec-9019-e7f02143838d",
+                "activity": {
+                    "ref": {
+                        "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                    }
+                },
+                "incoming": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "b309dc6d-e348-11ec-989e-e7f02143838d"
+                        }
+                    }
+                },
+                "outgoing": {
+                    "reflist": {
+                        "ref": [
+                            {
+                                "@refid": "87fc3685-e349-11ec-b14d-e7f02143838d"
+                            },
+                            {
+                                "@refid": "b7ed38ea-e349-11ec-82c5-e7f02143838d"
+                            }
+                        ]
+                    }
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "b0c4c806-e348-11ec-9229-e7f02143838d"
+                        }
+                    }
+                }
+            },
+            {
+                "@id": "b5ca0d24-e348-11ec-8857-e7f02143838d",
+                "activity": {
+                    "ref": {
+                        "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                    }
+                },
+                "incoming": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "ba83e8d6-e348-11ec-a92a-e7f02143838d"
+                        }
+                    }
+                },
+                "outgoing": {
+                    "reflist": {
+                        "ref": [
+                            {
+                                "@refid": "c038cece-e348-11ec-bf76-e7f02143838d"
+                            },
+                            {
+                                "@refid": "c409af7e-e348-11ec-8c5e-e7f02143838d"
+                            }
+                        ]
+                    }
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "b5ca3341-e348-11ec-9e6f-e7f02143838d"
+                        }
+                    }
+                }
+            }
+        ],
+        "DecisionNodeItem": [
+            {
+                "@id": "551519ff-e348-11ec-b145-e7f02143838d",
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 129.0, 244.7)"
+                },
+                "top-left": {
+                    "val": "(0.0, 0.0)"
+                },
+                "width": {
+                    "val": "20.0"
+                },
+                "height": {
+                    "val": "30.0"
+                },
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "parent": {
+                    "ref": {
+                        "@refid": "e3b60256-e347-11ec-ace1-e7f02143838d"
+                    }
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "5514ea51-e348-11ec-bffe-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "b0c4c806-e348-11ec-9229-e7f02143838d",
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 544.0, 370.1)"
+                },
+                "top-left": {
+                    "val": "(0.0, 0.0)"
+                },
+                "width": {
+                    "val": "20.0"
+                },
+                "height": {
+                    "val": "30.0"
+                },
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "b0c4a0f4-e348-11ec-9019-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "b5ca3341-e348-11ec-9e6f-e7f02143838d",
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 326.0, 347.25)"
+                },
+                "top-left": {
+                    "val": "(0.0, 0.0)"
+                },
+                "width": {
+                    "val": "20.0"
+                },
+                "height": {
+                    "val": "30.0"
+                },
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "parent": {
+                    "ref": {
+                        "@refid": "e3b60256-e347-11ec-ace1-e7f02143838d"
+                    }
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "b5ca0d24-e348-11ec-8857-e7f02143838d"
+                    }
+                }
+            }
+        ],
+        "ObjectFlowItem": [
+            {
+                "@id": "57700f98-e348-11ec-a672-e7f02143838d",
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "horizontal": {
+                    "val": "0"
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "57dd18b3-e348-11ec-a143-e7f02143838d"
+                    }
+                },
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 279.0, 475.0)"
+                },
+                "points": {
+                    "val": "[(31.0, 2.1255813953488882), (68.0, 2.1255813953488882)]"
+                },
+                "head-connection": {
+                    "ref": {
+                        "@refid": "22e79614-e348-11ec-9b91-e7f02143838d"
+                    }
+                },
+                "tail-connection": {
+                    "ref": {
+                        "@refid": "551519ff-e348-11ec-b145-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "59f47f71-e348-11ec-9ce1-e7f02143838d",
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "horizontal": {
+                    "val": "0"
+                },
+                "orthogonal": {
+                    "val": "1"
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "5b461446-e348-11ec-b08a-e7f02143838d"
+                    }
+                },
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 375.0, 463.0)"
+                },
+                "points": {
+                    "val": "[(-18.0, -0.8744186046511118), (-18.0, -77.89999999999998), (47.0, -77.89999999999998)]"
+                },
+                "head-connection": {
+                    "ref": {
+                        "@refid": "551519ff-e348-11ec-b145-e7f02143838d"
+                    }
+                },
+                "tail-connection": {
+                    "ref": {
+                        "@refid": "44c886f4-e348-11ec-bf69-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "647a97d1-e348-11ec-a24a-e7f02143838d",
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "horizontal": {
+                    "val": "0"
+                },
+                "orthogonal": {
+                    "val": "1"
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "6ffc58ac-e348-11ec-896d-e7f02143838d"
+                    }
+                },
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 376.0, 491.0)"
+                },
+                "points": {
+                    "val": "[(-19.0, 1.1255813953488882), (-19.0, 88.6755813953489), (46.0, 88.6755813953489)]"
+                },
+                "head-connection": {
+                    "ref": {
+                        "@refid": "551519ff-e348-11ec-b145-e7f02143838d"
+                    }
+                },
+                "tail-connection": {
+                    "ref": {
+                        "@refid": "68fec9db-e348-11ec-99ce-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "ad7b9931-e348-11ec-8527-e7f02143838d",
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "horizontal": {
+                    "val": "0"
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "b309dc6d-e348-11ec-989e-e7f02143838d"
+                    }
+                },
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 513.0, 384.0)"
+                },
+                "points": {
+                    "val": "[(8.0, 1.1000000000000227), (31.0, 1.1000000000000227)]"
+                },
+                "head-connection": {
+                    "ref": {
+                        "@refid": "44c886f4-e348-11ec-bf69-e7f02143838d"
+                    }
+                },
+                "tail-connection": {
+                    "ref": {
+                        "@refid": "b0c4c806-e348-11ec-9229-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "b9835b0a-e348-11ec-9b50-e7f02143838d",
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "horizontal": {
+                    "val": "0"
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "ba83e8d6-e348-11ec-a92a-e7f02143838d"
+                    }
+                },
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 519.0, 574.0)"
+                },
+                "points": {
+                    "val": "[(2.0, 5.6755813953489), (25.0, 5.6755813953489)]"
+                },
+                "head-connection": {
+                    "ref": {
+                        "@refid": "68fec9db-e348-11ec-99ce-e7f02143838d"
+                    }
+                },
+                "tail-connection": {
+                    "ref": {
+                        "@refid": "b5ca3341-e348-11ec-9e6f-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "bf59840a-e348-11ec-ad25-e7f02143838d",
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "horizontal": {
+                    "val": "0"
+                },
+                "orthogonal": {
+                    "val": "1"
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "c038cece-e348-11ec-bf76-e7f02143838d"
+                    }
+                },
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 552.0, 586.0)"
+                },
+                "points": {
+                    "val": "[(3.0, 8.6755813953489), (3.0, 46.85000000000002), (51.0, 46.85000000000002)]"
+                },
+                "head-connection": {
+                    "ref": {
+                        "@refid": "b5ca3341-e348-11ec-9e6f-e7f02143838d"
+                    }
+                },
+                "tail-connection": {
+                    "ref": {
+                        "@refid": "03fb473a-e348-11ec-a147-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "c2d5dfed-e348-11ec-9338-e7f02143838d",
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "horizontal": {
+                    "val": "0"
+                },
+                "orthogonal": {
+                    "val": "1"
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "c409af7e-e348-11ec-8c5e-e7f02143838d"
+                    }
+                },
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 549.0, 553.0)"
+                },
+                "points": {
+                    "val": "[(6.0, 11.6755813953489), (6.0, -27.975000000000023), (54.0, -27.975000000000023)]"
+                },
+                "head-connection": {
+                    "ref": {
+                        "@refid": "b5ca3341-e348-11ec-9e6f-e7f02143838d"
+                    }
+                },
+                "tail-connection": {
+                    "ref": {
+                        "@refid": "938769aa-e348-11ec-8817-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "0afffc68-e349-11ec-8a6f-e7f02143838d",
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "horizontal": {
+                    "val": "0"
+                },
+                "orthogonal": {
+                    "val": "1"
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "b7ed38ea-e349-11ec-82c5-e7f02143838d"
+                    }
+                },
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 554.0, 398.0)"
+                },
+                "points": {
+                    "val": "[(0.0, 2.1000000000000227), (0.0, 48.201162790697765), (52.0, 48.201162790697765)]"
+                },
+                "head-connection": {
+                    "ref": {
+                        "@refid": "b0c4c806-e348-11ec-9229-e7f02143838d"
+                    }
+                },
+                "tail-connection": {
+                    "ref": {
+                        "@refid": "c725afa1-e348-11ec-8ac6-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "0fc1055e-e349-11ec-b34a-e7f02143838d",
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "horizontal": {
+                    "val": "0"
+                },
+                "orthogonal": {
+                    "val": "1"
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "87fc3685-e349-11ec-b14d-e7f02143838d"
+                    }
+                },
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 554.0, 371.0)"
+                },
+                "points": {
+                    "val": "[(0.0, -0.8999999999999773), (0.0, -39.0744186046511), (52.0, -39.0744186046511)]"
+                },
+                "head-connection": {
+                    "ref": {
+                        "@refid": "b0c4c806-e348-11ec-9229-e7f02143838d"
+                    }
+                },
+                "tail-connection": {
+                    "ref": {
+                        "@refid": "f3e5dd85-e347-11ec-a570-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "ad6838bd-e349-11ec-9a75-e7f02143838d",
+                "diagram": {
+                    "ref": {
+                        "@refid": "58d6c536-66f8-11ec-b4c8-0456e5e540ed"
+                    }
+                },
+                "horizontal": {
+                    "val": "0"
+                },
+                "subject": {
+                    "ref": {
+                        "@refid": "aeca5cf3-e349-11ec-8c5f-e7f02143838d"
+                    }
+                },
+                "matrix": {
+                    "val": "(1.0, 0.0, 0.0, 1.0, 106.0, 477.0)"
+                },
+                "points": {
+                    "val": "[(2.0, 0.0), (86.0, 0.12558139534888824)]"
+                },
+                "head-connection": {
+                    "ref": {
+                        "@refid": "e8cd5fd2-e347-11ec-9b7a-e7f02143838d"
+                    }
+                },
+                "tail-connection": {
+                    "ref": {
+                        "@refid": "eafaf20c-e347-11ec-9dab-e7f02143838d"
+                    }
+                }
+            }
+        ],
+        "ObjectFlow": [
+            {
+                "@id": "57dd18b3-e348-11ec-a143-e7f02143838d",
+                "activity": {
+                    "ref": {
+                        "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                    }
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "57700f98-e348-11ec-a672-e7f02143838d"
+                        }
+                    }
+                },
+                "source": {
+                    "ref": {
+                        "@refid": "22e76c0f-e348-11ec-b540-e7f02143838d"
+                    }
+                },
+                "target": {
+                    "ref": {
+                        "@refid": "5514ea51-e348-11ec-bffe-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "5b461446-e348-11ec-b08a-e7f02143838d",
+                "activity": {
+                    "ref": {
+                        "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                    }
+                },
+                "guard": {
+                    "val": "yes"
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "59f47f71-e348-11ec-9ce1-e7f02143838d"
+                        }
+                    }
+                },
+                "source": {
+                    "ref": {
+                        "@refid": "5514ea51-e348-11ec-bffe-e7f02143838d"
+                    }
+                },
+                "target": {
+                    "ref": {
+                        "@refid": "44c877ba-e348-11ec-943a-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "6ffc58ac-e348-11ec-896d-e7f02143838d",
+                "activity": {
+                    "ref": {
+                        "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                    }
+                },
+                "guard": {
+                    "val": "no"
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "647a97d1-e348-11ec-a24a-e7f02143838d"
+                        }
+                    }
+                },
+                "source": {
+                    "ref": {
+                        "@refid": "5514ea51-e348-11ec-bffe-e7f02143838d"
+                    }
+                },
+                "target": {
+                    "ref": {
+                        "@refid": "68fea230-e348-11ec-83a5-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "b309dc6d-e348-11ec-989e-e7f02143838d",
+                "activity": {
+                    "ref": {
+                        "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                    }
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "ad7b9931-e348-11ec-8527-e7f02143838d"
+                        }
+                    }
+                },
+                "source": {
+                    "ref": {
+                        "@refid": "44c877ba-e348-11ec-943a-e7f02143838d"
+                    }
+                },
+                "target": {
+                    "ref": {
+                        "@refid": "b0c4a0f4-e348-11ec-9019-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "ba83e8d6-e348-11ec-a92a-e7f02143838d",
+                "activity": {
+                    "ref": {
+                        "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                    }
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "b9835b0a-e348-11ec-9b50-e7f02143838d"
+                        }
+                    }
+                },
+                "source": {
+                    "ref": {
+                        "@refid": "68fea230-e348-11ec-83a5-e7f02143838d"
+                    }
+                },
+                "target": {
+                    "ref": {
+                        "@refid": "b5ca0d24-e348-11ec-8857-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "c038cece-e348-11ec-bf76-e7f02143838d",
+                "activity": {
+                    "ref": {
+                        "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                    }
+                },
+                "guard": {
+                    "val": "yes"
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "bf59840a-e348-11ec-ad25-e7f02143838d"
+                        }
+                    }
+                },
+                "source": {
+                    "ref": {
+                        "@refid": "b5ca0d24-e348-11ec-8857-e7f02143838d"
+                    }
+                },
+                "target": {
+                    "ref": {
+                        "@refid": "03fb1bee-e348-11ec-baaf-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "c409af7e-e348-11ec-8c5e-e7f02143838d",
+                "activity": {
+                    "ref": {
+                        "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                    }
+                },
+                "guard": {
+                    "val": "no"
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "c2d5dfed-e348-11ec-9338-e7f02143838d"
+                        }
+                    }
+                },
+                "source": {
+                    "ref": {
+                        "@refid": "b5ca0d24-e348-11ec-8857-e7f02143838d"
+                    }
+                },
+                "target": {
+                    "ref": {
+                        "@refid": "93874200-e348-11ec-b172-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "87fc3685-e349-11ec-b14d-e7f02143838d",
+                "activity": {
+                    "ref": {
+                        "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                    }
+                },
+                "guard": {
+                    "val": "yes"
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "0fc1055e-e349-11ec-b34a-e7f02143838d"
+                        }
+                    }
+                },
+                "source": {
+                    "ref": {
+                        "@refid": "b0c4a0f4-e348-11ec-9019-e7f02143838d"
+                    }
+                },
+                "target": {
+                    "ref": {
+                        "@refid": "f3e5a9fc-e347-11ec-a0ed-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "aeca5cf3-e349-11ec-8c5f-e7f02143838d",
+                "activity": {
+                    "ref": {
+                        "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                    }
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "ad6838bd-e349-11ec-9a75-e7f02143838d"
+                        }
+                    }
+                },
+                "source": {
+                    "ref": {
+                        "@refid": "e8cd2f01-e347-11ec-9287-e7f02143838d"
+                    }
+                },
+                "target": {
+                    "ref": {
+                        "@refid": "87a6a473-e348-11ec-b384-e7f02143838d"
+                    }
+                }
+            },
+            {
+                "@id": "b7ed38ea-e349-11ec-82c5-e7f02143838d",
+                "activity": {
+                    "ref": {
+                        "@refid": "e3b562ff-e347-11ec-bf8c-e7f02143838d"
+                    }
+                },
+                "guard": {
+                    "val": "no"
+                },
+                "presentation": {
+                    "reflist": {
+                        "ref": {
+                            "@refid": "0afffc68-e349-11ec-8a6f-e7f02143838d"
+                        }
+                    }
+                },
+                "source": {
+                    "ref": {
+                        "@refid": "b0c4a0f4-e348-11ec-9019-e7f02143838d"
+                    }
+                },
+                "target": {
+                    "ref": {
+                        "@refid": "93874200-e348-11ec-b172-e7f02143838d"
+                    }
+                }
+            }
+        ],
+        "InputPin": {
+            "@id": "87a6a473-e348-11ec-b384-e7f02143838d",
+            "incoming": {
+                "reflist": {
+                    "ref": {
+                        "@refid": "aeca5cf3-e349-11ec-8c5f-e7f02143838d"
+                    }
+                }
+            },
+            "opaqueAction": {
+                "ref": {
+                    "@refid": "22e76c0f-e348-11ec-b540-e7f02143838d"
+                }
+            },
+            "presentation": {
+                "reflist": {
+                    "ref": {
+                        "@refid": "eafaf20c-e347-11ec-9dab-e7f02143838d"
+                    }
+                }
+            }
+        }
+    }
+}

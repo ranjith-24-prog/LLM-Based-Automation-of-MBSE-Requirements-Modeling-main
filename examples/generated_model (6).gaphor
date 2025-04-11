@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gaphor xmlns="http://gaphor.sourceforge.net/model" version="3.0" gaphor-version="2.27.0">
+	<StyleSheet id="58d6989a-66f8-11ec-b4c8-0456e5e540ed"></StyleSheet>
+	<Package id="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed">
+		<name>
+			<val>1. Concept Level</val>
+		</name>
+		<nestedPackage>
+			<reflist>
+				<ref refid="012edaba-70f5-11ec-aabc-f47b099bf663"></ref>
+			</reflist>
+		</nestedPackage>
+	</Package>
+	<Package id="012edaba-70f5-11ec-aabc-f47b099bf663">
+		<name>
+			<val>Requirements</val>
+		</name>
+		<ownedDiagram>
+			<reflist>
+				<ref refid="01a97fa8-70f6-11ec-aabc-f47b099bf663"></ref>
+			</reflist>
+		</ownedDiagram>
+		<ownedType>
+			<reflist>
+				<ref refid="09b17aca-70f6-11ec-aabc-f47b099bf663"></ref>
+				<ref refid="a779c5c9-bacf-11ed-8c6a-f47b099bf663"></ref>
+				<ref refid="96b2bc7a-bad0-11ed-be7e-f47b099bf663"></ref>
+			</reflist>
+		</ownedType>
+		<package>
+			<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"></ref>
+		</package>
+	</Package>
+	<Diagram id="01a97fa8-70f6-11ec-aabc-f47b099bf663">
+		<diagramType>
+			<val>req</val>
+		</diagramType>
+		<element>
+			<ref refid="012edaba-70f5-11ec-aabc-f47b099bf663"></ref>
+		</element>
+		<name>
+			<val>Concept Requirements</val>
+		</name>
+		<ownedPresentation>
+			<reflist>
+				<ref refid="09b1c73c-70f6-11ec-aabc-f47b099bf663"></ref>
+				<ref refid="a77a32f5-bacf-11ed-9ed2-f47b099bf663"></ref>
+				<ref refid="96b32747-bad0-11ed-9fb6-f47b099bf663"></ref>
+			</reflist>
+		</ownedPresentation>
+		<presentation>
+			<reflist>
+				<ref refid="4c49e84b-f1a4-11ed-afb8-f47b099bf663"></ref>
+			</reflist>
+		</presentation>
+	</Diagram>
+	<Diagram id="43e16719-f1a2-11ed-befd-f47b099bf663">
+		<diagramType>
+			<val></val>
+		</diagramType>
+		<name>
+			<val>Model Navigation</val>
+		</name>
+		<ownedPresentation>
+			<reflist>
+				<ref refid="5d81a34a-f1a2-11ed-a36d-f47b099bf663"></ref>
+				<ref refid="68b0c482-f1a2-11ed-800d-f47b099bf663"></ref>
+				<ref refid="6e369291-f1a2-11ed-bacd-f47b099bf663"></ref>
+				<ref refid="7a5e5a7b-f1a2-11ed-9f0b-f47b099bf663"></ref>
+				<ref refid="86ab7657-f1a2-11ed-8f09-f47b099bf663"></ref>
+				<ref refid="90444b0d-f1a2-11ed-b625-f47b099bf663"></ref>
+				<ref refid="4499337e-f1a6-11ed-8118-f47b099bf663"></ref>
+				<ref refid="449a6448-f1a6-11ed-9f97-f47b099bf663"></ref>
+				<ref refid="4c49e84b-f1a4-11ed-afb8-f47b099bf663"></ref>
+				<ref refid="b1758167-f1a2-11ed-a626-f47b099bf663"></ref>
+				<ref refid="bc7e4489-f1a2-11ed-8025-f47b099bf663"></ref>
+				<ref refid="ccf4b810-f1a2-11ed-aae2-f47b099bf663"></ref>
+				<ref refid="dd53455e-f1a2-11ed-94c5-f47b099bf663"></ref>
+				<ref refid="e3d283ec-f1a2-11ed-8160-f47b099bf663"></ref>
+				<ref refid="f35f2203-f1a2-11ed-adb0-f47b099bf663"></ref>
+				<ref refid="2bf38de4-f1a3-11ed-b3fa-f47b099bf663"></ref>
+				<ref refid="05a81052-f1a4-11ed-b0d2-f47b099bf663"></ref>
+				<ref refid="132ea42f-f1a4-11ed-a2e8-f47b099bf663"></ref>
+				<ref refid="23006387-f1a4-11ed-9399-f47b099bf663"></ref>
+				<ref refid="4499c6e1-f1a6-11ed-9557-f47b099bf663"></ref>
+				<ref refid="449a176a-f1a6-11ed-888f-f47b099bf663"></ref>
+			</reflist>
+		</ownedPresentation>
+	</Diagram>
+	<Requirement id="09b17aca-70f6-11ec-aabc-f47b099bf663">
+		<name>
+			<val>Water Tank</val>
+		</name>
+		<package>
+			<ref refid="012edaba-70f5-11ec-aabc-f47b099bf663"></ref>
+		</package>
+		<presentation>
+			<reflist>
+				<ref refid="09b1c73c-70f6-11ec-aabc-f47b099bf663"></ref>
+			</reflist>
+		</presentation>
+		<text>
+			<val>The Espresso Machine shall have a removable water tank.</val>
+		</text>
+	</Requirement>
+	<Requirement id="a779c5c9-bacf-11ed-8c6a-f47b099bf663">
+		<name>
+			<val>Heatup Time</val>
+		</name>
+		<package>
+			<ref refid="012edaba-70f5-11ec-aabc-f47b099bf663"></ref>
+		</package>
+		<presentation>
+			<reflist>
+				<ref refid="a77a32f5-bacf-11ed-9ed2-f47b099bf663"></ref>
+			</reflist>
+		</presentation>
+		<text>
+			<val>The Espresso Machine shall heat up to operating temperature within 10 minutes of turning it on.</val>
+		</text>
+	</Requirement>
+	<Requirement id="96b2bc7a-bad0-11ed-be7e-f47b099bf663">
+		<name>
+			<val>1 Cup Button</val>
+		</name>
+		<package>
+			<ref refid="012edaba-70f5-11ec-aabc-f47b099bf663"></ref>
+		</package>
+		<presentation>
+			<reflist>
+				<ref refid="96b32747-bad0-11ed-9fb6-f47b099bf663"></ref>
+			</reflist>
+		</presentation>
+		<text>
+			<val>Pressing the one cup button shall result in a single shot of espresso.</val>
+		</text>
+	</Requirement>
+	<DiagramItem id="4c49e84b-f1a4-11ed-afb8-f47b099bf663">
+		<matrix>
+			<val>(1.0, 0.0, 0.0, 1.0, 489.7094028356546, 125.17579650878906)</val>
+		</matrix>
+		<top-left>
+			<val>(0.0, 0.0)</val>
+		</top-left>
+		<width>
+			<val>30.0</val>
+		</width>
+		<height>
+			<val>30.0</val>
+		</height>
+		<diagram>
+			<ref refid="43e16719-f1a2-11ed-befd-f47b099bf663"></ref>
+		</diagram>
+		<subject>
+			<ref refid="01a97fa8-70f6-11ec-aabc-f47b099bf663"></ref>
+		</subject>
+	</DiagramItem>
+</gaphor>
