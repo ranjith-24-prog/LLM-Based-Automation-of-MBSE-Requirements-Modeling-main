@@ -178,6 +178,7 @@ def open_gaphor_app(gaphor_content):
 
 # Main App
 def main():
+    st.set_page_config(page_title="MBSE Modeler for Gaphor")
     st.title("MBSE Concept Level requirement Modeler for Gaphor")
     st.sidebar.title("How do you want to create the requirements diagram ?")
     
