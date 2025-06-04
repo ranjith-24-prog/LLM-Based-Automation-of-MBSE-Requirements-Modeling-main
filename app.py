@@ -178,7 +178,6 @@ def open_gaphor_app(gaphor_content):
 
 # Main App
 def main():
-    st.set_page_config(page_title="MBSE Modeler for Gaphor")
     st.title("MBSE Concept Level requirement Modeler for Gaphor")
     st.sidebar.title("How do you want to create the requirements diagram ?")
     
@@ -227,6 +226,8 @@ def main():
                     st.session_state['selected_to_delete'] = []
                 if 'add_count' not in st.session_state:
                     st.session_state['add_count'] = 0
+                if 'temp_edits' not in st.session_state:
+                    st.session_state['temp_edits'] = {}
 
                 with st.expander("📄 View Current Requirements Summary", expanded=False):
                     st.subheader("🧠 Summarized Requirements")
@@ -247,12 +248,41 @@ def main():
 
                 for i, req in enumerate(st.session_state['req_data']):
                     if req['heading'] in st.session_state['selected_to_edit']:
-                        req['heading'] = st.text_input(f"Edit Heading {i+1}", value=req['heading'], key=f"edit_heading_{i}")
-                        req['description'] = st.text_area(f"Edit Description {i+1}", value=req['description'], key=f"edit_desc_{i}")
+                        edit_key = f"{req['heading']}_{i}"
+                        if edit_key not in st.session_state['temp_edits']:
+                            st.session_state['temp_edits'][edit_key] = {
+                                "heading": req['heading'],
+                                "description": req['description']
+                            }
+
+                        st.session_state['temp_edits'][edit_key]["heading"] = st.text_input(
+                            f"Edit Heading {i+1}",
+                            value=st.session_state['temp_edits'][edit_key]["heading"],
+                            key=f"edit_heading_{edit_key}"
+                        )
+
+                        st.session_state['temp_edits'][edit_key]["description"] = st.text_area(
+                            f"Edit Description {i+1}",
+                            value=st.session_state['temp_edits'][edit_key]["description"],
+                            key=f"edit_desc_{edit_key}"
+                        )
+
+                if st.button("✅ Apply Edits"):
+                    for i, req in enumerate(st.session_state['req_data']):
+                        edit_key = f"{req['heading']}_{i}"
+                        if edit_key in st.session_state.get('temp_edits', {}):
+                            edits = st.session_state['temp_edits'][edit_key]
+                            if req['heading'] in st.session_state['selected_to_edit']:
+                                req['heading'] = edits["heading"]
+                                req['description'] = edits["description"]
+                    st.success("Changes applied successfully.")
 
                 st.markdown("---")
                 st.subheader("➕ Add New Requirements")
-                st.session_state['add_count'] = st.number_input("How many requirements do you want to add?", min_value=0, max_value=20, value=st.session_state['add_count'])
+                st.session_state['add_count'] = st.number_input(
+                    "How many requirements do you want to add?",
+                    min_value=0, max_value=20, value=st.session_state['add_count']
+                )
                 new_reqs = []
                 for i in range(st.session_state['add_count']):
                     new_heading = st.text_input(f"New Heading {i+1}", key=f"new_heading_{i}")
@@ -271,7 +301,6 @@ def main():
 
             except Exception as e:
                 st.error(f"❌ Could not process the uploaded Gaphor file: {e}")
-
 
 
     if mode == MODES["manual"]:
