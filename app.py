@@ -267,16 +267,6 @@ def main():
                             key=f"edit_desc_{edit_key}"
                         )
 
-                if st.button("✅ Apply Edits"):
-                    for i, req in enumerate(st.session_state['req_data']):
-                        edit_key = f"{req['heading']}_{i}"
-                        if edit_key in st.session_state.get('temp_edits', {}):
-                            edits = st.session_state['temp_edits'][edit_key]
-                            if req['heading'] in st.session_state['selected_to_edit']:
-                                req['heading'] = edits["heading"]
-                                req['description'] = edits["description"]
-                    st.success("Changes applied successfully.")
-
                 st.markdown("---")
                 st.subheader("➕ Add New Requirements")
                 st.session_state['add_count'] = st.number_input(
@@ -290,14 +280,33 @@ def main():
                     new_reqs.append({"heading": new_heading, "description": new_description})
 
                 if st.button("🚀 Regenerate Final Gaphor File"):
-                    updated = [r for r in st.session_state['req_data'] if r['heading'] not in st.session_state['selected_to_delete']]
+                    # STEP 1: Apply edits
+                    updated_reqs = []
+                    for i, req in enumerate(st.session_state['req_data']):
+                        edit_key = f"{req['heading']}_{i}"
+                        if edit_key in st.session_state.get('temp_edits', {}) and req['heading'] in st.session_state['selected_to_edit']:
+                            edits = st.session_state['temp_edits'][edit_key]
+                            updated_reqs.append({
+                                "heading": edits["heading"],
+                                "description": edits["description"]
+                            })
+                        else:
+                            updated_reqs.append(req)
+
+                    # STEP 2: Apply deletions
+                    updated_reqs = [r for r in updated_reqs if r['heading'] not in st.session_state['selected_to_delete']]
+
+                    # STEP 3: Apply additions
                     for r in new_reqs:
                         if r['heading'] and r['description']:
-                            updated.append(r)
-                    final_headings = [r['heading'] for r in updated]
-                    final_descriptions = [r['description'] for r in updated]
+                            updated_reqs.append(r)
+
+                    # STEP 4: Generate file
+                    final_headings = [r['heading'] for r in updated_reqs]
+                    final_descriptions = [r['description'] for r in updated_reqs]
                     st.session_state['gaphor_content'] = generate_gaphor_xml(final_headings, final_descriptions)
                     st.success("✅ File regenerated with all edits, deletions, and additions applied.")
+
 
             except Exception as e:
                 st.error(f"❌ Could not process the uploaded Gaphor file: {e}")
