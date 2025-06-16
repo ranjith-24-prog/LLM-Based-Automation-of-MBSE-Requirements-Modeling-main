@@ -8,7 +8,7 @@ import subprocess
 from openai import OpenAI
 
 # Perplexity AI API Key
-API_KEY = "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"
+API_KEY = st.secrets["api_keys"]["perplexity"]
 
 # Constants for Requirement Spacing
 MAX_COLUMNS = 3  # Number of requirements per row
@@ -198,7 +198,7 @@ def main():
         st.session_state['gaphor_content'] = None  # Reset content
         st.session_state['previous_mode'] = mode   # Update the mode
 
-    client = OpenAI(api_key="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", base_url="https://api.perplexity.ai")
+    client = OpenAI(api_key= API_KEY, base_url="https://api.perplexity.ai")
 
     # Inside the upload mode block
     # Unified Edit/Delete/Add with Regenerate at once
