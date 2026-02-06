@@ -41,6 +41,7 @@ Download Gaphor: https://gaphor.org/download/
 ## Example AI prompt
 > Create concept level requirements for building a coffee machine, keep a maximum of 5 important requirements.
 
+Output
 
 ![Sample output in Gaphor](assets/gaphor-output.png)
 
