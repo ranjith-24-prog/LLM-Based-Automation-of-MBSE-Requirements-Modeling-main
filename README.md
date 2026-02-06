@@ -1,82 +1,64 @@
-# Leveraging Large Language Models to Automate MBSE Model Creation for Manufacturing Systems
+# LLM-Based Automation of MBSE Requirements Modeling (SysML + Gaphor)
 
-This project is a Streamlit-based web application that enables users to generate and edit concept-level requirements diagrams for Model-Based Systems Engineering (MBSE) — particularly for manufacturing systems. It integrates with Gaphor, a popular SysML/UML modeling tool, and supports multiple modes of requirement generation including manual input, AI-assisted creation using Perplexity, and uploading/modifying existing `.gaphor` files.
+A Streamlit web app that helps you create **SysML Requirements** models quickly—from structured input or plain English—and exports a file that can be opened directly in **Gaphor**.
 
-## Description
+**Live app:** https://llmautomation.streamlit.app/  
+**Portfolio write-up:** <[MBSE LLM Automation App](https://ranjith-mahesh-en.carrd.co/#llm)>  
+**University/Collaboration:** Faculty of Informatik and Systems Engineering Department, Otto von Guericke University (OvGU)
 
-Creating high-quality MBSE models from scratch can be time-consuming and complex. This tool simplifies that process by leveraging large language models to assist engineers and system designers in building structured requirement diagrams aligned with ISO 15288 standards.
+![App Screenshot](assets/app-screenshot.png)
 
-It automates:
-- Diagram structure generation (based on user-defined or AI-generated requirements)
-- Gaphor-compatible `.gaphor` file formatting
-- Requirements visualization using Gaphor desktop app
+## Why this project
+Systems engineers (and non-experts) often need requirements diagrams but may not want to spend time learning specialized modeling tools for basic requirements modeling.
 
-## Features
+This project explores:
+- Generating SysML-compatible requirements models without manual diagram drawing.
+- Using a LLM to translate plain English requirements into structured SysML requirements elements.
+- Supporting ongoing maintenance of requirements models through edit/add/delete workflows.
 
-- Manual input for up to 20 custom requirements
-- AI-powered generation using the Perplexity API
-- Upload & modify existing `.gaphor` files with editing/deletion/addition support
-- Download generated `.gaphor` files
-- Open `.gaphor` files directly in the Gaphor desktop application
-- Auto-positioning of requirement blocks for clean diagram layouts
+## What it does (3 modes)
+### 1) Manual Mode
+- Enter up to **20 requirements** (heading + description).
+- Download a ready-to-open Gaphor-compatible requirements model file.
 
-## Tech Stack
+### 2) AI-Based Mode
+- Provide requirements in plain English.
+- The integrated LLM converts them into a structured requirements model suitable for SysML-style requirements diagrams.
 
-- Python 3
-- Streamlit
-- Perplexity AI API
-- Gaphor
-- xmltodict, uuid, json, subprocess, tempfile
+### 3) Modification Mode
+- Upload an existing Gaphor requirements model file.
+- Perform CRUD operations (add/edit/delete requirements) directly from the UI.
+- Download the updated file for continued modeling in Gaphor.
 
-## Getting Started
+## Quick start (use the hosted app)
+1. Open the app: https://llmautomation.streamlit.app/
+2. Choose a mode (Manual / AI-Based / Modification).
+3. Generate and download the output file.
+4. Open it in **Gaphor** to view and continue editing the model.
 
-### 1. Clone the Repository
+Download Gaphor: https://gaphor.org/download/
 
-```bash
-git clone https://github.com/nitinbharadwajnataraj/gaphor_with_llm.git
-cd gaphor_with_llm
-```
+## Example AI prompt
+> Create concept level requirements for building a coffee machine, keep a maximum of 5 important requirements.
 
-### 2. Set Up a Virtual Environment
 
-```bash
-python -m venv .venv
-# Activate it
-# On Windows:
-.venv\Scripts\activate
-# On macOS/Linux:
-source .venv/bin/activate
-```
+![Sample output in Gaphor](assets/gaphor-output.png)
 
-### 3. Install the Dependencies
+## Output
+- Produces a requirements model file that is intended to be **fully compatible with Gaphor** and directly openable for further SysML/MBSE work.
+- Designed to reduce friction between “writing requirements” and “getting a usable model” in downstream MBSE workflows.
 
-```bash
-pip install -r requirements.txt
-```
+## Tech stack
+- Python (application + export pipeline)
+- Streamlit (interactive web UI, rapid prototyping & deployment)  
+- Perplexity API (LLM inference for NL → structured requirements)  
+- Prompt engineering & output-constraint design (structured generation for requirements elements)
+- Data modeling & transformation (requirements schema, diagram structure, serialization)
+- File engineering: Gaphor model file handling (generate/export/import workflows)
+- CRUD workflows (edit/add/delete requirements; modification mode)
+- Deployment: Streamlit Community Cloud (hosted live demo)
 
-### 4. Run the Streamlit App
-
-```bash
-streamlit run app.py
-```
-
-> Replace `app.py` with your main script filename if different.
-
-## External Tools Required
-
-- Gaphor (for opening and visualizing `.gaphor` files): https://gaphor.org/
-- Perplexity API Key: https://www.perplexity.ai/ (already added in the code)
-
-## Authors
-
-- Ranjith Mahesh - ranjith.mahesh@st.ovgu.de
-- Nitin Bharadwaj Nataraj -  nitin.nataraj@ovgu.de
-- Kavyashree Byalya Nanjegowda - kavyashree.byalya@st.ovgu.de
-
-## Resources
-
-- Gaphor Documentation: https://docs.gaphor.org/
-- Streamlit Docs: https://docs.streamlit.io/
-- ISO/IEC/IEEE 15288 Standard: https://www.iso.org/standard/63711.html
-
-Built to accelerate system modeling with the power of AI and MBSE.
+## Notes / limitations
+- LLM-generated requirements should be reviewed (especially wording, completeness, and consistency).
+- The app focuses on requirements modeling; it does not attempt full system architecture modeling.
+- If you hit format/compatibility issues with specific Gaphor versions, please open an issue with the input and generated file attached.
