@@ -3,7 +3,7 @@
 A Streamlit web app that helps you create **SysML Requirements** models quickly—from structured input or plain English—and exports a file that can be opened directly in **Gaphor**.
 
 **Live app:** https://llmautomation.streamlit.app/  
-**Portfolio write-up:** <[MBSE LLM Automation App](https://ranjith-mahesh-en.carrd.co/#llm)>  
+**Portfolio write-up:** [MBSE LLM Automation App](https://ranjith-mahesh-en.carrd.co/#llm)  
 **University/Collaboration:** Faculty of Informatik and Systems Engineering Department, Otto von Guericke University (OvGU)
 
 ![App Screenshot](assets/app-screenshot.png)
